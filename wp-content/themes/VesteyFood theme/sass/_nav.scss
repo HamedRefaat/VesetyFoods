@@ -1,0 +1,112 @@
+/* Start The nav*/
+
+.custom-nav {
+	background: #fff;
+	box-shadow: 0px 3px 6px rgba(#000, .16);
+	.navbar-toggler {
+		border: 1px solid #F1F1F1;
+		span {
+			i {
+				font-size: 30px;
+				color: rgba(#9C0A31, .50);
+			}
+		}
+	}
+	.navbar-nav {
+		//		padding-top: 10px;
+		> li {
+			margin: 0 15px;
+			cursor: pointer;
+			position: relative;
+			> .border-bottom {
+				border: 2px solid rgba(#9C0A31, .25);
+				display: inline-block;
+				width: 0;
+				position: absolute;
+				bottom: -12px;
+				transition: all .5s;
+				opacity: 0;
+			}
+			&:hover {
+				.border-bottom {
+					width: 100%;
+					opacity: 1;
+				}
+			}
+			a {
+				color: #000000;
+				font-size: 16px;
+				margin-top: 7px;
+
+			}
+			&.user {
+				border: 4px solid rgba(#9C0A31, .25);
+				border-radius: 30px;
+				padding: 5px 20px;
+				padding-right: 40px; //				overflow: hidden;
+				display: flex;
+				align-items: center;
+				position: relative;
+				.log-out {
+					width: 100%;
+
+				}
+				&:hover {
+					.log-out {
+						display: block;
+					}
+					#user-name {
+						display: none;
+					}
+				}
+				a {
+					margin-top: 0;
+				}
+				img {
+					border-radius: 50%;
+					margin-left: -15px;
+					margin-right: 15px;
+				}
+				i {
+					position: absolute;
+					right: 10px;
+				}
+				.dorpmenu {
+					position: absolute;
+					bottom: 0px;
+					left: 0;
+					background: #fff;
+					/* padding: 5px 0px; */
+					width: 100%;
+					height: 100%;
+					left: 0;
+					border-radius: 30px;
+					//					padding: 10px 0;
+					display: none;
+					li {
+						padding: 0;
+						a {
+							padding: 10px;
+							display: block;
+							border-radius: 30px;
+
+							&:hover {
+								background: rgba(#9C0A31, .25);
+								color: #fff;
+
+								transition: all .5s;
+
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.log-out {
+	display: none;
+}
+
+/* end   The nav*/

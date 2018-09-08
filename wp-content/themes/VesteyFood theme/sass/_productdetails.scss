@@ -1,0 +1,33 @@
+.product-details{
+	.back{
+		a{
+			color: #9C0A31;
+			font-size: 24px;
+		}
+	}
+	.pannel{
+		height: auto !important;
+		-webkit-box-shadow: 0 3px 6px rgba(#000, .16);
+		-moz-box-shadow: 0 3px 6px rgba(#000, .16);
+		-o-box-shadow: 0 3px 6px rgba(#000, .16);
+		box-shadow: 0 3px 6px rgba(#000, .16);
+		border-radius: 0;
+		.title{
+			padding: 20px;
+			h3{
+				font-size: 18px;
+			}
+		}
+		.details{
+			padding: 20px;
+			ul{
+				li{
+					font-size: 16px;
+				}
+			}
+			p{
+				font-size: 16px;
+			}
+		}
+	}
+}

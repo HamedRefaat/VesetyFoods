@@ -1,0 +1,47 @@
+[06-May-2018 01:39:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 01:39:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 01:39:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 01:39:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 01:39:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 17:50:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 17:51:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 18:53:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 19:14:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 19:26:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 19:44:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 19:47:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 75
+[06-May-2018 20:39:54 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ktbisvhyxb45/public_html/vestey/wp-content/plugins/duplicator/ctrls/ctrl.tools.php on line 95
+[07-May-2018 02:13:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php:74
+Stack trace:
+#0 /home/ktbisvhyxb45/public_html/vestey/wp-includes/class-wp-hook.php(286): revealid_id_column_content('mt', 287)
+#1 /home/ktbisvhyxb45/public_html/vestey/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/ktbisvhyxb45/public_html/vestey/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-posts-list-table.php(1149): do_action('manage_posts_cu...', 'mt', 287)
+#4 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-list-table.php(1254): WP_Posts_List_Table->column_default(Object(WP_Post), 'mt')
+#5 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-posts-list-table.php(1195): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-posts-list-table.php(659): WP_Posts_Li in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 74
+[07-May-2018 02:13:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php:74
+Stack trace:
+#0 /home/ktbisvhyxb45/public_html/vestey/wp-includes/class-wp-hook.php(286): revealid_id_column_content('mt', 313)
+#1 /home/ktbisvhyxb45/public_html/vestey/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/ktbisvhyxb45/public_html/vestey/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-posts-list-table.php(1149): do_action('manage_posts_cu...', 'mt', 313)
+#4 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-list-table.php(1254): WP_Posts_List_Table->column_default(Object(WP_Post), 'mt')
+#5 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-posts-list-table.php(1195): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-posts-list-table.php(659): WP_Posts_Li in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 74
+[07-May-2018 02:13:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php:44
+Stack trace:
+#0 /home/ktbisvhyxb45/public_html/vestey/wp-includes/class-wp-hook.php(286): revealid_id_column_content('mt', 314)
+#1 /home/ktbisvhyxb45/public_html/vestey/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/ktbisvhyxb45/public_html/vestey/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-posts-list-table.php(1149): do_action('manage_posts_cu...', 'mt', 314)
+#4 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-list-table.php(1254): WP_Posts_List_Table->column_default(Object(WP_Post), 'mt')
+#5 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-posts-list-table.php(1195): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/ktbisvhyxb45/public_html/vestey/wp-admin/includes/class-wp-posts-list-table.php(659): WP_Posts_Li in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 44
+[08-May-2018 16:15:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 97
+[08-May-2018 16:15:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 97
+[08-May-2018 16:16:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 97
+[08-May-2018 16:16:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 97
+[08-May-2018 16:16:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 97
+[08-May-2018 16:35:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 97
+[09-May-2018 01:14:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ktbisvhyxb45/public_html/vestey/wp-content/themes/VesteyFood theme/functions.php on line 97
